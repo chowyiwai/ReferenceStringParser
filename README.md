@@ -36,7 +36,7 @@ The adopted datasets include the [Cora information extraction dataset](https://p
 
 The jstor subdirectory contains collections of metadata from books and journal articles that were obtained from JSTOR using their Data For Research tool. The dataset contains XML files that include many details including the field tags, and others such as the Digital Object Identifier (DOI). The DOI of the books and articles were extracted and used to send Content Negotiation requests to a DOI Resolver (CrossRef’s API). 
 
-Reference strings formatted in 7 citation styles (ACM-Sig-Proceedings, American-Chemical-Society, APA, chicago-author-date, Harvard3, IEEE and MLA) can be found under the `cstyle_dataset` subdirectory.
+Reference strings formatted in 7 citation styles (ACM-Sig-Proceedings, American-Chemical-Society, APA, chicago-author-date, Harvard3, IEEE and MLA) can be found under the `cstyle_dataset` subdirectory. In the `cstyle_dataset/example_dataset` subdirectory, 3 sample files containing metadata obtained from JSTOR, extracted DOIs and formatted citations produced using `Citations generator.ipynb` respectively can be found as well. 
 
 ## References
 * A New Dataset for Fine-Grained Citation Field Extraction. Sam Anzaroot, Andrew McCallum. ICML Workshop on Peer Reviewing and Publishing Models (PEER), 2013.
